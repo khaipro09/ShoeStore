@@ -1,0 +1,18 @@
+.input-number-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-number-container .ant-input-number {
+  text-align: right;
+  padding-right: 0; /* Reset default padding */
+}
+
+.input-number-container .suffix {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Make the suffix text readonly */
+  white-space: nowrap; /* Ensure the text does not wrap */
+}

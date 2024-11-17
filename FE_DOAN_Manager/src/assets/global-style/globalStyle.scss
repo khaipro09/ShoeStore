@@ -1,0 +1,30 @@
+@import 'normalize.css';
+/* Font chung */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Font chung và màu chủ đạo */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: #ffffff;
+    /* Đặt màu nền chủ đạo */
+    color: var(--primary-color, #ffffff);
+    /* Màu chữ chủ đạo */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Biến màu chủ đạo */
+:root {
+    --primary-color: #ffffff;
+    /* Màu chữ mặc định */
+}

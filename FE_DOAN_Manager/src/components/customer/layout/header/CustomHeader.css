@@ -1,0 +1,31 @@
+.custom-button:hover {
+  background-color: transparent !important;
+  color: initial !important;
+}
+
+.adjust_button_hover_drawer.ant-btn:hover {
+  border-color: white !important;
+}
+
+.ant-menu-horizontal .ant-menu-submenu-title:hover {
+  background-color: rgba(0, 0, 0, 0) !important; /* Đặt màu nền khi hover cho submenu */
+  color: red !important; /* Đặt màu chữ khi hover cho submenu */
+}
+
+.ant-menu-horizontal .ant-menu-submenu-title:hover {
+  background-color: transparent !important; /* Màu nền khi hover cho submenu */
+  color: red !important; /* Màu chữ khi hover cho submenu */
+}
+
+.ant-menu-item-group-title {
+  padding: 0;
+  width: 0px;
+}
+
+.ant-menu-overflow-item .ant-menu-item.ant-menu-item-only-child {
+  padding: 0;
+}
+
+.ant-menu-overflow-item ant-menu-item ant-menu-item-only-child {
+  padding: 0;
+}

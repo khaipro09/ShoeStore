@@ -1,0 +1,21 @@
+.layout-content {
+  overflow-y: auto;
+  height: calc(100vh - 64px);
+  position: relative;
+  /* 64px là chiều cao của Header */
+}
+
+.switch-trans.layout-content {
+  overflow-y: auto;
+  height: calc(100vh - 64px);
+  position: relative;
+  /* 64px là chiều cao của Header */
+}
+
+.switch-trans.ant-switch-checked {
+  background: red !important;
+}
+
+.switch-trans.ant-switch:not(.ant-switch-checked) {
+  background-color: blue !important;
+}

@@ -1,0 +1,31 @@
+/* ProductFormPage.css */
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF; /* Thêm màu nền nếu cần */
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-list {
+  display: flex;
+  gap: 4px;
+}
+
+.button-form {
+  display: flex;
+  gap: 4px;
+}
+
+.header-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF; /* Thêm màu nền nếu cần */
+  margin-bottom: 16px;
+}
