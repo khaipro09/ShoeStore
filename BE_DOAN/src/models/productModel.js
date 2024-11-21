@@ -21,7 +21,7 @@ const model = {
     },
     qty: {
       type: mongoose.Schema.Types.Number,
-      default: 100,
+      default: 0,
     },
     sold: {
       type: mongoose.Schema.Types.Number,

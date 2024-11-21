@@ -66,7 +66,7 @@ const model = {
 
     active: {
       type: mongoose.Schema.Types.Boolean,
-      default: false
+      default: true
     },
 
     avatar: {

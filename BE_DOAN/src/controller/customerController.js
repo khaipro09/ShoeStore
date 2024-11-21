@@ -70,7 +70,7 @@ export const signinController = async (req, res) => {
 
     const hashPassword = bcrypt.hashSync(password, parseInt(process.env.SALT_ROUND));
     const newCustomer = await CustomerModel.create({
-      active: false,
+      active: true,
       avatar,
       email,
       password: hashPassword,
@@ -93,13 +93,13 @@ export const signinController = async (req, res) => {
       throw new Error("Can't create User");
     }
 
-    const html = `Hello ${email},
-    Please verify your account by clicking the link:
-    http://${req.headers.host}/v1/customers/verifyMail/${newCustomer.id}/${cusToken}
-    Thank You!
-    `;
+    // const html = `Hello ${email},
+    // Please verify your account by clicking the link:
+    // http://${req.headers.host}/v1/customers/verifyMail/${newCustomer.id}/${cusToken}
+    // Thank You!
+    // `;
 
-    await mailer(email, subject, html);
+    // await mailer(email, subject, html);
 
     return res.status(200).json(
       {
