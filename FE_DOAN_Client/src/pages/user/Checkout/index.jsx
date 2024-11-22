@@ -68,10 +68,10 @@ function CheckoutPage() {
           cities: cities.data.dataObject,
         });
       } catch (error) {
-        notification.error({
-          message: "Lỗi tải dữ liệu địa điểm",
-          description: error.message,
-        });
+        // notification.error({
+        //   message: "Lỗi tải dữ liệu địa điểm",
+        //   description: error.message,
+        // });
       } finally {
         setLoading(false);
       }

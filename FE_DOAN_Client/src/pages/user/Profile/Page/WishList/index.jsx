@@ -41,7 +41,7 @@ function Wishlist() {
               history.push(`/product/${wishItem.productName}-${wishItem.productId}`)
             }
           >
-            <Meta title={wishItem.productName} description={wishItem.brand.categoryName} />
+            {/* <Meta title={wishItem.productName} description={wishItem.brand.categoryName} /> */}
           </Card>
         </Col>
       );
