@@ -129,9 +129,9 @@ const ProductFormPage = () => {
         form.setFieldsValue({
 
           ...productData.dataObject,
-          uom: productData.dataObject.uom?._id | '',
-          tax: productData.dataObject.tax?._id | '',
-          brand: productData.dataObject.brand?._id | '',
+          uom: productData.dataObject.uom?._id ,
+          tax: productData.dataObject.tax?._id ,
+          brand: productData.dataObject.brand?._id,
           category: productData.dataObject.category._id,
         });
       }
