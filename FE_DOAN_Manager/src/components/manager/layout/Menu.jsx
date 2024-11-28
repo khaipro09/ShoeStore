@@ -13,12 +13,12 @@ const App = () => {
   const navigate = useNavigate();
 
   const functionList = [
-    {
-      _id: '1',
-      funcName: 'Dashboard',
-      isParent: true,
-      clientPath: PATH.MANAGER.DASHBOARD,
-    },
+    // {
+    //   _id: '1',
+    //   funcName: 'Dashboard',
+    //   isParent: true,
+    //   clientPath: PATH.MANAGER.DASHBOARD,
+    // },
     {
       _id: '2',
       funcName: 'Products',
@@ -32,24 +32,24 @@ const App = () => {
     //   parentFunc: '2',
     //   clientPath: PATH.MANAGER.PRODUCTTEST,
     // },
-    {
-      _id: '4',
-      funcName: 'Users',
-      isParent: true,
-      clientPath: PATH.MANAGER.USERS,
-    },
+    // {
+    //   _id: '4',
+    //   funcName: 'Users',
+    //   isParent: true,
+    //   clientPath: PATH.MANAGER.USERS,
+    // },
     {
       _id: '5',
       funcName: 'Employees',
       isParent: true,
       clientPath: PATH.MANAGER.EMPLOYEES,
     },
-    {
-      _id: '6',
-      funcName: 'Functions',
-      isParent: true,
-      clientPath: PATH.MANAGER.FUNCTIONS,
-    },
+    // {
+    //   _id: '6',
+    //   funcName: 'Functions',
+    //   isParent: true,
+    //   clientPath: PATH.MANAGER.FUNCTIONS,
+    // },
     {
       _id: '7',
       funcName: 'Account',
@@ -86,12 +86,12 @@ const App = () => {
       isParent: true,
       clientPath: PATH.MANAGER.CUSTOMERS,
     },
-    {
-      _id: '13',
-      funcName: 'Sales',
-      isParent: true,
-      clientPath: PATH.MANAGER.SALES,
-    },
+    // {
+    //   _id: '13',
+    //   funcName: 'Sales',
+    //   isParent: true,
+    //   clientPath: PATH.MANAGER.SALES,
+    // },
     {
       _id: '14',
       funcName: 'Orders',

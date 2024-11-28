@@ -193,8 +193,10 @@ const OrderFormPage = () => {
           phoneNumber: orderData?.dataObject?.customer?.phoneNumber,
           orderDate: orderData?.dataObject?.customer?.phoneNumber,
           employeeName: orderData?.dataObject?.employee?.employeeName,
+
           // paided: orderData?.dataObject?.customer?.phoneNumber,
           ...orderData?.dataObject,
+          shipTo: orderData?.dataObject.shipTo.split("-")[0],
         });
       }
     } catch (error) {
@@ -340,6 +342,7 @@ const OrderFormPage = () => {
               </Col>
               <Col span={12}>
                 <Form.Item label={t('shipTo')} name="shipTo">
+
                   <Input readOnly />
                 </Form.Item>
               </Col>
