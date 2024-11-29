@@ -22,12 +22,7 @@ function Payment({
     `Tên khách hàng: ${confirmValues.customerName}`,
     `Email: ${confirmValues.email}`,
     `Số điện thoại: ${confirmValues.phoneNumber}`,
-    `Địa chỉ: ${confirmValues.address} - ${location.wards.find((ward) => ward.code === confirmValues.ward)?.name
-    } - ${location.districts.find(
-      (district) => district.code === confirmValues.district
-    )?.name
-    } - ${location.cities.find((city) => city.code === confirmValues.city)?.name
-    }`,
+    `Địa chỉ: ${confirmValues.address}`,
     `Tổng tiền phải thanh toán:
       ${totalPrice.toLocaleString()}₫
       ${orderInfo.percent !== 0

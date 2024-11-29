@@ -68,12 +68,12 @@ function Confirm({
             size="small"
             columns={columns}
             pagination={false}
-            expandable={{
-              expandedRowRender: (record) => (
-                <p style={{ margin: 0 }}>{record.description}</p>
-              ),
-              rowExpandable: (record) => record.name !== "Not Expandable",
-            }}
+            // expandable={{
+            //   expandedRowRender: (record) => (
+            //     <p style={{ margin: 0 }}>{record.description}</p>
+            //   ),
+            //   rowExpandable: (record) => record.name !== "Not Expandable",
+            // }}
             scroll={{ x: "max-content" }}
             dataSource={data}
             bordered
@@ -124,7 +124,7 @@ function Confirm({
                 <Input />
               </Form.Item>
             </Col>
-            
+
             <Col xs={24} md={24} lg={24}>
               <Form.Item
                 label="Địa chỉ cụ thể"
