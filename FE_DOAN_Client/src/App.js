@@ -84,7 +84,7 @@ function App() {
           <DefaultLayout exact path="/product" component={ProductPage} />
           <DefaultLayout exact path="/product/GIAY_NAM" component={ProductPage} />
           <DefaultLayout exact path="/product/GIAY_NU" component={ProductPage} />
-          <DefaultLayout exact path="/product/GIAY_THE_THAO" component={ProductPage} />
+          <DefaultLayout exact path="/product/GIAY_TRE_EM" component={ProductPage} />
           <DefaultLayout exact path="/blog" component={BlogPage} />
           <DefaultLayout exact path="/contact" component={ContactPage} />
           <DefaultLayout exact path="/profile" component={ProfilePage} />

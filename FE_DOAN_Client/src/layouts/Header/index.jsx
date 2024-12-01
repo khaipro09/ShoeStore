@@ -69,7 +69,7 @@ function Header({ type }) {
     { title: "Sản phẩm", path: "/product" },
     { title: "Nam", path: "/product/GIAY_NAM" },
     { title: "Nữ", path: "/product/GIAY_NU" },
-    { title: "Trẻ Em", path: "/product/GIAY_THE_THAO" },
+    { title: "Trẻ Em", path: "/product/GIAY_TRE_EM" },
     { title: "Liên hệ", path: "/contact" },
   ];
 

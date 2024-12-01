@@ -61,7 +61,7 @@ function ProductPage() {
       setDepartmentsSelect([2]);
       dispatch(getProductListAction({ page: 1, categoriesSelected: ['672c8fe0a0d09d691c0f4ffb'] }));
     }
-    if (history.location.pathname === "/product/GIAY_THE_THAO") {
+    if (history.location.pathname === "/product/GIAY_TRE_EM") {
       setDepartmentsSelect([3]);
       dispatch(getProductListAction({ page: 1, categoriesSelected: ['672c8fe9a0d09d691c0f4fff'] }));
     }

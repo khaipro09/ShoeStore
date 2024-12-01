@@ -46,9 +46,9 @@ function HomePage() {
   }, []);
   console.log("🚀 ~ HomePage ~ productList:", productList)
 
-  const GIAY_THE_THAO_List = {
+  const GIAY_TRE_EM_List = {
     data: productList.data?.filter(
-      (productItem) => productItem?.category?.categoryCode === "GIAY_THE_THAO"
+      (productItem) => productItem?.category?.categoryCode === "GIAY_TRE_EM"
     ),
   };
   const GIAY_NU_List = {
@@ -177,7 +177,7 @@ function HomePage() {
             text="xem thêm"
             params="/product/GIAY_TRE_EM"
           >
-            <ProductSlider productList={GIAY_THE_THAO_List} />
+            <ProductSlider productList={GIAY_TRE_EM_List} />
           </SectionHome>
           {/* Bài viết */}
           <SectionHome title="Bài viết mới nhất" text="xem thêm" params="/blog">
